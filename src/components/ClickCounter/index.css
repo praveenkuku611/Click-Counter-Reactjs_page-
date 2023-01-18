@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+}
+span {
+  color: #c20a72;
+}
+.heading {
+  font-family: 'Roboto';
+  text-align: center;
+  font-size: 40px;
+}
+.para {
+  margin-top: 25px;
+  font-size: 18px;
+}
+.button {
+  margin-top: 15px;
+  color: #ffffff;
+  background-color: #007bff;
+  padding: 8px;
+  border-style: none;
+  border-radius: 2px;
+  font-size: 10px;
+}
